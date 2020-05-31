@@ -7,5 +7,6 @@
 	While GetKeyState("LButton", "P") {
 		Send {LButton down}
 		Send {LButton Up}
+		Sleep, 100
 	}
 	return
